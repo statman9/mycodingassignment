@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mIXozsrZEDUK2g9QcenGT4Mk8VuFRWWMZBdyQRlVzSM5y1pUQztXE7K/OD9Lphs19De9X+67vnTsrKNs6c0+DQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Josh\\source\\repos\\MyApp\\MyApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Josh\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
+    "C:\\Users\\Josh\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
