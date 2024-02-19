@@ -11,8 +11,11 @@ namespace MyApp.Tests
         [TestCase("><", false)]
         [TestCase("<<>", false)]
         [TestCase("<>>", false)]
+        [TestCase("<><>", true)]
+        [TestCase("<><>>", false)]
         [TestCase("“”", true)]
         [TestCase("<abcdefghijklmnopqrstuvwxyz>", true)]
+        [TestCase("<This is another test>", true)]
         [TestCase("<This is another test>", true)]
         public void MyTest(string testString, bool expected)
         {

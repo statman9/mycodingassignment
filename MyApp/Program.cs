@@ -48,12 +48,8 @@ namespace MyProgram
                 }
             }
             // Check and see if any brackets are not closed
-            if (openBrackets != 0)
-            {
-                return false;
-            }
             // If there are no issues, return that it was a valid string
-            return true;
+            return openBrackets == 0;
         }
     }
 }
